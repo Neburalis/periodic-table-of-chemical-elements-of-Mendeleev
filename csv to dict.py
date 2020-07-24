@@ -32,7 +32,6 @@ def my_dict(line):
     Any = line.split(';')
     dic = {'el': Any[1], 'name': Any[2], 'num': int(Any[0]), 'mass': float(Any[3]), 'masr': int(Any[4])}
 
-
 my_read()
 for i in file.split('\n'):
     my_dict(i)
